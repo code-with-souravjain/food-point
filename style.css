@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+
+:root {
+  --primary-color: #A82C48;
+  --secondry-color: #43121d;
+  --third-color: #f98169;
+  --white-color: #fff;
+  --text-color: #555;
+  --text-gray: #999;
+  --black-color: #000;
+}
+
+
+.main-btn{
+  padding: 0.7rem 1.9rem;
+  background-color: #A82C48;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+}
+
+.white-btn{
+  padding: 0.7rem 1.9rem;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  color: #555;
+  margin: 0 15px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+}
+.navbar {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	z-index: 1000;
+	transition: all 0.3s ease-out;
+  background-color: #fff;
+}
+.nav-item a{
+  font-size: 1.2rem;
+}
+.collapse li{
+  padding-right: .7rem;
+}
+.menu{
+  font-size: 1.7rem;
+  color: #A82C48;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #A82C48;
+}
+.my-banner{
+  width: 100%;
+  background-image: url(./images/bg-4.jpg);
+  background-size: cover;
+  background-position:80% top;
+  padding: 10rem 0 10rem;
+}
+
+.my-banner h1 {
+  font-size: 3.7rem;
+  color: #43121d;
+  font-weight: 800;
+}
+#home p {
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+#counter{
+  padding: 2rem 0;
+  background-color: #A82C48;
+}
+#counter h3{
+  font-size: 2.5rem;
+  color: #fff;
+}
+#counter p{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#fit-food{
+  padding: 2.5rem 0 ;
+}
+#fit-food p{
+  color: #555;
+}
+#fit-food h3{
+  color: #000;
+  font-size: 2.7rem;  
+
+}
+ #fit-food img{
+   width: 100%;
+   border-radius: 0.7rem;
+} 
+
+
+#fast-food img{
+  width: 100%;
+  border-radius: 0.7rem;
+} 
+
+#fast-food p{
+  color: #555;
+}
+#fast-food h3{
+  color: #000;
+  font-size: 2.3rem;  
+}
+#fast-food ul{
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+#fast-food ul li{
+  margin-bottom: 5px; 
+}
+#fast-food i{
+  padding-right: 10px; 
+  color: #A82C48;
+}
+.food{
+  margin-top: 1rem;
+}
+
+#explore-food{
+  margin: 1rem 0;
+}
+#explore-food h5 {
+  font-size: 1.35rem;
+  margin: 0;
+}
+#explore-food h3{
+  font-size: 2rem;
+  color: #A82C48;
+}
+#explore-food p{
+  color: #999;
+}
+.pro-btn{
+  padding: 0.3rem 0.8rem;
+}
+
+
+#testmonial{
+  padding: 3rem 0;
+  background-color: #efefef;
+}
+#testmonial h3{
+  font-size: 2rem;
+  color: #A82C48;
+}
+.owl-carousel i{
+  font-size: 2rem;
+  color: #A82C48;
+  margin-bottom: 1rem;
+}
+.user img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.owl-nav {
+  display: none; 
+}
+#question{
+  padding: 3rem 0;
+}
+.faq {
+  color: #A82C48;
+   font-size: 2rem;
+}
+.my-question h4{
+  color: #A82C48;
+  font-size: 1.6rem;
+}
+
+.cta{
+  width: 100%;
+  background-image: url(images/bg-3.jpg);
+  background-position: 0 5rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 4rem 0;
+}
+
+.news{
+  margin: 4rem 0;
+}
+
+footer{
+  padding: 5rem 0;
+  background-color: #A82C48;
+}
+.my-foot i{
+  font-size: 2rem;
+  padding-right: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+.my-foot h4{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/********responsive************/
+@media only screen and (max-width:576px) {
+  .my-banner h1 {
+    font-size: 3.7rem;
+}
+#home p {
+  font-size: 1rem;
+}
+
+#fit-food h3 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+#explore-food h3 {
+  font-size: 2rem;
+  margin-top: 3.5rem;
+}
+#fast-food h3 {
+  font-size: 2rem;
+}
+.my-foot h4 {
+  font-size: 1.1rem;
+}
+.card {
+  margin-left: 3rem;
+  width: 26rem !important;
+}
+.card-body h4{
+font-size: 1.3rem;
+}
+#fast-food .odd{
+  order:1;
+}
+#fit-food {
+   padding: 0; 
+}
+#fit-food img {
+  margin-top: 3rem;
+}
+}
+
+
+ @media only screen and (max-width:768px){
+  #fast-food .odd{
+    order:1;
+  }
+  #fit-food img {
+    margin-top: 5rem;
+}
+  #fit-food {
+     padding: 0; 
+  }
+  #explore-food h3 {
+    font-size: 2rem;
+    margin-top: 3.5rem;
+}
+} 
