@@ -45,24 +45,24 @@ h1,h2,h3,h4,h5{
   box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
 }
 
-.white-btn{
-  padding: 0.7rem 1.9rem;
-  background-color: #fff;
-  border: none;
-  outline: none;
-  color: #555;
-  margin: 0 15px;
-  font-size: 0.9375rem;
-  font-weight: 600;
-  box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+.white-btn {
+    padding: 0.7rem 2rem;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #555;
+    margin: 10px 5px;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
 }
 .navbar {
-	position: fixed;
-	width: 100%;
-	left: 0;
-	z-index: 1000;
-	transition: all 0.3s ease-out;
-  background-color: #fff;
+position: fixed;
+width: 100%;
+left: 0;
+z-index: 1000;
+transition: all 0.3s ease-out;
+background-color: #fff;
 }
 .nav-item a{
   font-size: 1.2rem;
@@ -239,7 +239,13 @@ footer{
 /********responsive************/
 @media only screen and (max-width:576px) {
   .my-banner h1 {
-    font-size: 3.7rem;
+    font-size: 2.4rem;
+}
+.my-banner {
+    background-image: url(./images/bg-4.jpg);
+    background-size: cover;
+    background-position: 77% top;
+    padding: 9rem 0 8rem;
 }
 #home p {
   font-size: 1rem;
