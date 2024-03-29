@@ -249,9 +249,8 @@ footer{
   font-weight: 600;
   font-size: 2rem;
 }
-#explore-food h3 {
-  font-size: 2rem;
-  margin-top: 3.5rem;
+#explore-food {
+    margin: 4rem 0;
 }
 #fast-food h3 {
   font-size: 2rem;
