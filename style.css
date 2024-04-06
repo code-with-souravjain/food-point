@@ -237,35 +237,87 @@ footer{
 }
 
 /********responsive************/
+@media only screen and (max-width:992px) {
+ 
+  .collapse li {
+    padding-right: 1rem;
+}
+.nav-item a {
+  font-size: 1rem;
+}
+#fit-food h3 {
+  font-size: 1.8rem;
+}
+#fast-food h3 {
+  font-size: 1.8rem;
+}
+#explore-food {
+  padding-bottom: 3rem;
+}
+
+}
+
+
+
+@media only screen and (max-width:768px){
+
+  .my-banner h1 {
+    font-size: 3rem;
+}
+#home p {
+  font-size: 1.1rem;
+  width: 100%;
+}
+  #fast-food .odd{
+    order:1;
+  }
+  #fit-food img {
+    margin-top: 5rem;
+}
+  #fit-food {
+     padding: 0; 
+  }
+  #explore-food h3 {
+    font-size: 2rem;
+    margin-top: 3.5rem;
+}
+.my-foot h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#counter h3 {
+  font-size: 2rem;
+  color: #fff;
+}
+} 
+
+
 @media only screen and (max-width:576px) {
   .my-banner h1 {
-    font-size: 2.4rem;
-}
-.my-banner {
-    background-image: url(./images/bg-4.jpg);
-    background-size: cover;
-    background-position: 77% top;
-    padding: 9rem 0 8rem;
+    font-size: 2.7rem;
 }
 #home p {
   font-size: 1rem;
+  width: 100%;
 }
-
+#counter h3 {
+  font-size: 1.8rem;
+}
+#counter p {
+  font-size: 1rem;
+}
 #fit-food h3 {
-  font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
-#explore-food {
-    margin: 4rem 0;
+#explore-food h3 {
+  font-size: 2rem;
+  margin-top: 3.5rem;
 }
 #fast-food h3 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 .my-foot h4 {
   font-size: 1.1rem;
-}
-.card {
-    margin-bottom: 2rem;
 }
 .card-body h4{
 font-size: 1.3rem;
@@ -282,18 +334,6 @@ font-size: 1.3rem;
 }
 
 
- @media only screen and (max-width:768px){
-  #fast-food .odd{
-    order:1;
-  }
-  #fit-food img {
-    margin-top: 5rem;
-}
-  #fit-food {
-     padding: 0; 
-  }
-  #explore-food h3 {
-    font-size: 2rem;
-    margin-top: 3.5rem;
-}
-} 
+
+
+
